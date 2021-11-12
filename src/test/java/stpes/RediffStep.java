@@ -36,6 +36,7 @@ public class RediffStep {
 	  driver.findElement(By.xpath("//*[@id=\"pass_div\"]/input[3]")).click();
 	  Thread.sleep(2000);
 	  driver.close();
+	  //closed
 	 }
      
  }
