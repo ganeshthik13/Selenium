@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-11T02:54:43.481Z",
+        "line": 11,
+        "name": "Enter email and password on rediffPage",
+        "description": "",
+        "id": "rediff-login-page;enter-email-and-password-on-rediffpage;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6384291300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on RediffPage",
+            "match": {
+              "location": "stpes.RediffStep.I_am_on_RediffPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183364000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter EmailID \u0027sonal04@gmail.com\u0027 \u0026 Password \u0027abc@123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027sonal04@gmail.com\u0027",
+                  "offset": 16
+                },
+                {
+                  "val": "\u0027abc@123\u0027",
+                  "offset": 47
+                }
+              ],
+              "location": "stpes.RediffStep.i_enter_EmailID_sonal04_gmail_com_Password_abc(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3570071800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on Login",
+            "match": {
+              "location": "stpes.RediffStep.click_on_Login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T02:54:53.689Z",
+        "line": 12,
+        "name": "Enter email and password on rediffPage",
+        "description": "",
+        "id": "rediff-login-page;enter-email-and-password-on-rediffpage;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3473799300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on RediffPage",
+            "match": {
+              "location": "stpes.RediffStep.I_am_on_RediffPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118918400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter EmailID \u0027admin@gmail.com\u0027 \u0026 Password \u0027admin@123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027admin@gmail.com\u0027",
+                  "offset": 16
+                },
+                {
+                  "val": "\u0027admin@123\u0027",
+                  "offset": 45
+                }
+              ],
+              "location": "stpes.RediffStep.i_enter_EmailID_sonal04_gmail_com_Password_abc(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2560926400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on Login",
+            "match": {
+              "location": "stpes.RediffStep.click_on_Login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T02:54:59.855Z",
+        "line": 13,
+        "name": "Enter email and password on rediffPage",
+        "description": "",
+        "id": "rediff-login-page;enter-email-and-password-on-rediffpage;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4212496400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on RediffPage",
+            "match": {
+              "location": "stpes.RediffStep.I_am_on_RediffPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106839300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter EmailID \u0027emp@gmail.com\u0027 \u0026 Password \u0027emp@123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027emp@gmail.com\u0027",
+                  "offset": 16
+                },
+                {
+                  "val": "\u0027emp@123\u0027",
+                  "offset": 43
+                }
+              ],
+              "location": "stpes.RediffStep.i_enter_EmailID_sonal04_gmail_com_Password_abc(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3045165200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on Login",
+            "match": {
+              "location": "stpes.RediffStep.click_on_Login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Rediff Login page",
+    "description": "",
+    "id": "rediff-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Rediff.feature",
+    "tags": []
+  }
+]
